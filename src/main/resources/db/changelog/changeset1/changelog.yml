@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      author: vicente.balaguer
+      id: 2024-05-05-00-00-00
+      changes:
+        - tagDatabase:
+            tag: 2024-05-05-00-00-00
+        - sqlFile:
+            splitStatements: false
+            path: scripts/scripts.sql
+            relativeToChangelogFile: true
